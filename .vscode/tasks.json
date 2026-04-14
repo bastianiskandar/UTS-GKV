@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build OpenGL Project",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "${workspaceFolder}/main.cpp",
+        "${workspaceFolder}/src/glad.c",
+        "-I${workspaceFolder}/include",
+        "-L${workspaceFolder}/lib",
+        "-lglfw3",
+        "-lopengl32",
+        "-lgdi32",
+        "-o",
+        "${workspaceFolder}/app.exe",
+        "-g",
+        "main.cpp",
+        "-o",
+        "polygon",
+        "-I",
+        "C:/msys64/mingw64/include/GL",
+        "-L",
+        "C:/msys64/mingw64/lib",
+        "-lfreeglut",
+        "-lopengl32",
+        "-lglu32"
+      ],
+      
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Build with g++ using GLFW and GLAD"
+    }
+  ]
+}

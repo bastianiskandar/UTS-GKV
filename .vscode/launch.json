@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
+      "cwd": "c:/COpenGLProject",
+      "program": "c:/COpenGLProject/build/Debug/outDebug",
+=======
       "cwd": "c:/Users/Advan/Downloads/Kelompok 4",
       "program": "c:/Users/Advan/Downloads/Kelompok 4/build/Debug/outDebug",
+>>>>>>> 4b68198e218689c169c1316dae899f47faa87184
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
