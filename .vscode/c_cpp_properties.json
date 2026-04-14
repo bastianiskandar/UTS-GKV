@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/include/glad",
+        "${workspaceFolder}/include/GLFW",
+        "${workspaceFolder}/include/KHR"
+      ],
+      "defines": [],
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c17",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
